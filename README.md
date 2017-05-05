@@ -41,3 +41,8 @@ I think in general I wanted to have persistent data as opposed to worrying about
 There is a rake task to load the initial month data set.  This will loop through the data and throw them into our database.
 
 Then there is another rake task to be ran periodically to pull from USGS daily updates that dumps data into our database.
+
+## TODO:
+- Validate start_time and end_time coming
+- Potentially write a service class for earthquake_controller
+- Front end potentially?

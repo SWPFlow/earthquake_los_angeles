@@ -1,4 +1,5 @@
 # README
+[![Build Status](https://travis-ci.org/austinrfnd/earthquake_los_angeles.svg?branch=master)](https://travis-ci.org/austinrfnd/earthquake_los_angeles)
 ## Setup
 ```
 rvm install ruby-2.4.0
@@ -21,6 +22,8 @@ Ruby 2.4.0
 ```
 bundle exec rspec spec
 ```
+Travis Build
+https://travis-ci.org/austinrfnd/earthquake_los_angeles
 
 ## Usage
 

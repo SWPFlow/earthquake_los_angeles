@@ -19,8 +19,11 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-# Used for interfacing with Kenesis
-gem 'aws-sdk'
+# HTTP library faraday
+gem 'faraday'
+
+# Haversine
+gem 'haversine'
 
 # TDD / Specs
 gem 'rspec-rails'
@@ -44,6 +47,8 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13.0'
+  # Data Factories
+  gem 'factory_girl'
   gem 'selenium-webdriver'
 end
 
